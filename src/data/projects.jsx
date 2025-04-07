@@ -1,9 +1,11 @@
+import game from '../assets/game.png'
+
 export default [
     {
-      title: 'Project 1',
-      description: 'Project description...',
-      image: '/assets/project1.jpg',
-      demoLink: '#'
+      title: 'Gaming Platform',
+      description: 'Front-End Design of a Gaming Platform',
+      image: game,
+      demoLink: 'https://gamingplatform.netlify.app/'
     },
     // Add more projects
   ];

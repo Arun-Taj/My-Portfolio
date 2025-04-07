@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import ThreeScene from './components/ThreeScene';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
         <Projects />
         <Contact />
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 };

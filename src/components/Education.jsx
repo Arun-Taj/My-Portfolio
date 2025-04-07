@@ -35,7 +35,7 @@ const EducationScene = () => {
 
 const Education = () => {
   return (
-    <section id="education" className="py-20 px-6 relative bg-gray-50">
+    <section id="education" className="py-20 px-6 relative ">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -44,9 +44,9 @@ const Education = () => {
           className="grid md:grid-cols-2 gap-12 items-center"
         >
           {/* 3D Scene */}
-          <div className="h-96 md:h-[500px] relative">
+          {/* <div className="h-96 md:h-[500px] relative">
             <EducationScene />
-          </div>
+          </div> */}
 
           {/* Education Content */}
           <div className="space-y-12">

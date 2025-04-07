@@ -85,23 +85,7 @@ const Skills = () => {
             ))}
           </div>
 
-          {/* 3D Cube Section */}
-          <motion.div 
-            className="mt-20 h-96 relative"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-          >
-            <SkillCube />
-            <motion.div
-              className="absolute bottom-0 left-1/2 -translate-x-1/2 text-center"
-              initial={{ y: 20 }}
-              animate={{ y: 0 }}
-              transition={{ repeat: Infinity, duration: 2, repeatType: 'reverse' }}
-            >
-              <p className="text-gray-600">Hover to rotate the cube!</p>
-            </motion.div>
-          </motion.div>
+          
         </motion.div>
       </div>
     </section>

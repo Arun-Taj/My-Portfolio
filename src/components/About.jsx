@@ -4,7 +4,6 @@ import { OrbitControls, Sphere, Stars } from '@react-three/drei';
 import { motion } from 'framer-motion';
 import { FiCode, FiServer, FiDatabase } from 'react-icons/fi';
 import Profile from '../assets/pptest.jpg'; // Replace with your profile image path
-
 const About = () => {
   return (
     <section id="about" className="min-h-screen py-20 px-6 relative">
